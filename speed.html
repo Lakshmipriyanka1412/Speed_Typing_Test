@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container" id="speedTypingTest">
+
+        <h1 class="heading">Speed Typing Test</h1>
+        <p class="para">On your fingers lets set go</p>
+        <div class="smallCon d-flex flex-row">
+            <div>
+                <img class="image" src="https://assets.ccbp.in/frontend/dynamic-webapps/clock-img.png" />
+            </div>
+            <p class="count" id="timer"><span class="spanEle">0</span>seconds</p>
+        </div>
+        <div class="mid-Con" id="midCon">
+            <p class="qupa" id="quoteDisplay"></p>
+            <div id="spinner" class="spinner-border d-none" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+            <div class="m-s-con d-flex flex-row" id="sMCon" mt-4>
+                <textarea rows="6" cols="39" id="quoteInput"></textarea>
+            </div>
+        </div>
+        <button class="btn btn-primary m-3" id="submitBtn">Submit</button>
+        <button class="btn btn-secondary m-3" id="resetBtn">Reset</button>
+        <p class="res" id="result"></p>
+    </div>
+</body>
+
+</html>
